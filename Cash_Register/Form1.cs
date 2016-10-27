@@ -92,7 +92,7 @@ namespace Cash_Register
             FormGraphics.DrawString("have a nice day", drawfont, Blackbrush, 480, 450);
 
         }
-            private void resetButton_Click(object sender, EventArgs e)
+            private void resetButton_Click(object sender, EventArgs e) 
         {
             Graphics FormGraphics = this.CreateGraphics();
             Pen Secondpen = new Pen(Color.Maroon, 10);
